@@ -33,7 +33,6 @@ def check(url):
 
 
 r = csv.reader(open("top2m.csv"));
-
 for row in r:
 	url=row[1]
 	#print url
